@@ -1,0 +1,6 @@
+
+<view>音乐demo 官方那首什么歌忘记了 随便啦反正能用</view>
+<view class='lists'>
+<i-player isPlay='{{isPlay}}'  defaultmin='{{defaultmin}}' defaultsec='{{defaultsec}}'  playedmin='{{playedmin}}' playedsec='{{playedsec}}' playedtime='{{playedtime}}' 
+ bind:playerControl="playerControl" ></i-player>
+ </view>

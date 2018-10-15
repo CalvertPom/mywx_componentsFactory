@@ -1,0 +1,9 @@
+<view class="player">
+  <image class='playbutton' src="{{isPlay?'/pages/images/music-pause.png': '/pages/images/music-play.png'}}" catchtap='playerControl'></image>
+  <view class='playbar'>
+    <view class='playbar-played' style="width: {{playedtime}}rpx;"></view>
+    <view class='playbar-ball'></view>
+  </view>
+  <text class='playtime'>{{playedmin}}:{{playedsec}}/{{defaultmin}}:{{defaultsec}}</text>
+</view>
+ 

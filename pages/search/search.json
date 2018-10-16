@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "搜索组件Demo",
+  "usingComponents": {
+    "i-search": "/components/search/index"
+  }
+}

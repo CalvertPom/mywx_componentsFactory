@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "播放器组件Demo",
   "usingComponents": {
     "i-player": "/components/musicplayer/index"
   }

@@ -1,0 +1,2 @@
+<i-search inputVal='{{inputVal}}' isClearshow='{{isClearshow}}' isLoglistshow='{{isLoglistshow}}' isCancel='{{isCancel}}' inputShowed='{{inputShowed}}' searchLoglist='{{searchLoglist}}' bind:clickSearch="clickSearch" bind:inputTyping="inputTyping" bind:clearInput="clearInput"
+  bind:clickClearHistroy="clickClearHistroy" bind:clickHistroy="clickHistroy" bind:clickClearthisHistroy="clickClearthisHistroy"></i-search>

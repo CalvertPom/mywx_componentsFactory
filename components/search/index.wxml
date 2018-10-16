@@ -1,0 +1,37 @@
+<!--search-->
+<view class="weui-search-bar">
+  <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <view class="weui-search-bar__label" style="display:block;">
+        <image src="/pages/images/i-search_gray.png" class="i-search icon-28"></image>
+        <input type="text" class="persearch_input" placeholder="搜索" confirm-type="search" placeholder-class="placeholder" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" bindconfirm="clickSearch" />
+        <view class="weui-icon-clear clearicon" wx:if="{{inputVal.length > 0}}" catchtap="clearInput">
+          <image src="/pages/images/i-searchbar_clear.png" class="i-searchbar_clear icon-28"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cancel_text" hidden="{{isCancel}}" catchtap="clickSearch">搜索</view>
+  <view class="cancel_text" hidden="{{!isCancel}}" catchtap='navigateBack'>取消</view>
+</view>
+<!--search-->
+<!-- 搜索块 -->
+<!-- 搜索历史 -->
+<view class="histroy" hidden='{{!isLoglistshow}}'>
+  <text class='histroy-title' hidden='{{!isClearshow}}'>搜索历史</text>
+  <view catchtap='clickHistroy' data-historynum="{{index}}" wx:for="{{searchLoglist}}" wx:key="unique">
+    <view class='histroy-itemlist'>
+      <view class='s_view_sty'>
+        <image src="/pages/images/s-history.png" class="histroy-icon-his"></image>
+      </view>
+      <view class="histroy-text ellipsis">{{item}}</view>
+      <view class="history-view-clear" catchtap='clickClearthisHistroy' data-clearnum="{{index}}">
+        <image src="/pages/images/clear.png" class="histroy-icon-clear"></image>
+      </view>
+    </view>
+    <view class='history-line'></view>
+  </view>
+
+  <view class="histroy-clear" catchtap='clickClearHistroy' hidden='{{!isClearshow}}'>清除历史记录</view>
+</view>
+<!-- 搜索历史 -->

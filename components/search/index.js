@@ -1,6 +1,4 @@
 Component({
-  externalClasses: ['i-class'],
-
   properties: {
     //搜索框输入的值
     inputVal: {

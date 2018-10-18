@@ -86,9 +86,9 @@ input {
 
 .i-search {
   z-index: 3;
-  position: fixed;
-  top: 35rpx;
-  left: 40rpx;
+  position: relative;
+  top: -1rpx;
+  left: -280rpx;
 }
 
 .icon-28 {
@@ -102,6 +102,8 @@ input {
   height: 100%;
   color: #333;
   width: 510rpx;
+  position: relative;
+  top: -60rpx;
 }
 
 .weui-search-bar__box input {
@@ -123,9 +125,9 @@ input {
 
 .i-searchbar_clear {
   z-index: 3;
-  position: fixed;
-  top: 32rpx;
-  margin-left: -9px;
+  position: relative;
+  top: 0rpx;
+  margin-left: -10rpx;
 }
 
 .icon-28 {

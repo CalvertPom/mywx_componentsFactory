@@ -16,7 +16,6 @@
 .playbutton {
   width: 70rpx;
   height: 70rpx;
-  background: rgba(67, 109, 255, 1);
   border-radius: 50%;
   flex: 1;
   box-sizing: border-box;
@@ -28,7 +27,7 @@
   background: rgba(255, 255, 255, 1);
   border-radius: 4rpx;
   flex: 6;
-  margin-left: 30rpx;
+  margin-left: 10rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -51,12 +50,10 @@
   border-radius: 50%;
   box-shadow: 0px 0px 0px rgba(NaN, NaN, NaN, 0.35);
   z-index: 4;
-  box-sizing: border-box;
-  font-family: Microsoft YaHei;
 }
 
 .playtime {
-  width: 114rpx;
+  width: 135rpx;
   height: 27rpx;
   font-size: 28rpx;
   font-family: Helvetica;

@@ -1,22 +1,10 @@
 Component({
-  externalClasses: ['i-class'],
-
   properties: {
     //是否处于播放状态
     isPlay: {
       type: Boolean,
       value: false
     },
-    // // 显示播放图标
-    // playicon: {
-    //   type: String,
-    //   value: ''
-    // },
-    // // 显示暂停图标
-    // pauseicon: {
-    //   type: String,
-    //   value: ''
-    // },
     //显示播放条已播放，单位为rpx
     playedtime: {
       type: Number,
@@ -46,7 +34,8 @@ Component({
     },
   },
   methods: {
-    playerControl: function() { 
+    // 是否播放音频
+    playerControl: function() {
       this.triggerEvent('playerControl')
     }
   }

@@ -3,12 +3,16 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/mp3play/mp3play",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/musiclist/musiclist",
+    "pages/progress/progress",
+    "pages/action-sheet/action-sheet"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

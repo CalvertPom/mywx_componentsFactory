@@ -1,0 +1,7 @@
+<view class="i-class i-progress">
+    <view class="i-progress-outer">
+        <view class="i-progress-inner">
+            <view class="i-progress-bg" style="width: {{percent}}%;height: 32rpx"></view>
+        </view>
+    </view> 
+</view>

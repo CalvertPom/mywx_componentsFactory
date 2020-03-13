@@ -1,0 +1,4 @@
+.p-progress{
+  width:150rpx;
+  height:32rpx;
+}
